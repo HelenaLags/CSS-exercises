@@ -27,3 +27,67 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*My css here*/
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.sidesidebar {
+  flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  font-size: 24px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.classcards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
